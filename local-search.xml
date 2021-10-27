@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>springtest</title>
+    <link href="/2021/10/27/springtest/"/>
+    <url>/2021/10/27/springtest/</url>
+    
+    <content type="html"><![CDATA[<h1 id="spring"><a href="#spring" class="headerlink" title="spring"></a>spring</h1><h2 id="springtest"><a href="#springtest" class="headerlink" title="springtest"></a>springtest</h2><ul><li><p>gjgghjh</p></li><li><p>jkhkjh</p></li><li><p>hjkgj</p><blockquote><p>sagsgdhfdndf</p><p>fhdfjfdjfgkfg,kfgk</p></blockquote></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">public class UserServlet extends HttpServlet &#123;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException &#123;</span><br><span class="line">        System.out.println(&quot;userServlet is running......&quot;);</span><br><span class="line">        req.getRequestDispatcher(&quot;success.jsp&quot;).forward(req,resp);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException &#123;</span><br><span class="line">        this.doGet(req,resp);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>spring_test</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>hello world</title>
+    <link href="/2021/10/27/hello-world-1/"/>
+    <url>/2021/10/27/hello-world-1/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
